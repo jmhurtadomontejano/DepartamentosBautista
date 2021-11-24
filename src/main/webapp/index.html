@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Start Page</title>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <style>
+            div {
+                border-radius: 25px;
+                background: gainsboro;
+                padding: 30px;
+                width: 50%;
+                height: auto;
+                border: 1px solid #c3c3c3;
+                margin: auto;
+                overflow: auto;
+                text-align: center;
+                font: oblique normal 100% cursive;
+            }
+            button{
+                width: 50%;
+            }
+            
+        </style>
+    </head>
+    <body>
+        <div>
+            <h1>GESTION DEPARTAMENTOS</h1>
+            <button type="submit" onclick="location.href = 'Controlador?accion=insertar'" class="bot2 boton">Insertar Nuevo DEPARTAMENTO</button><br>
+            <button type="submit" onclick="location.href = 'Controlador?accion=mostrar'" class="bot2 boton">Mostrar DEPARTAMENTOS</button><br>
+            <button type="submit" onclick="location.href = 'Controlador?accion=modificar'" class="bot2 boton">Modificar DEPARTAMENTO</button>
+        </div>
+    </body>
+</html>
